@@ -31,7 +31,16 @@ t=2: &emsp; &emsp; &emsp; &emsp; &emsp;&emsp; &emsp; &emsp; &emsp; &emsp;&emsp; 
 
 If we let the simulation go for 50 cycles and plot each new flower location, we see that it forms a sort of spiral:  
 <img src="/Pictures/spiral50.png" width="30%">  
-If we graph the divergence angles over time (angle between a given flower and the flower directly before it), we see that the angles hover around the golden angle or the conjugate of the golden angle (~2.4 and ~3.88 radians, respectively). 
+If we graph the divergence angles over time (angle between a given flower and the flower directly before it), we see that the angles hover around the golden angle or the conjugate of the golden angle (~2.4 and ~3.88 radians, respectively). Interestingly, this means that new flowers seem to be added at the golden angle but there is some switching between clockwise and counter-clockwise.  
+<img src="/Pictures/divergence50.png" width="30%">  
+If we make a histogram of these divergence angles, it is clear they cluster around the golden angle or its conjugate:  
+<img src="/Pictures/hist50.png" width="30%">  
+
+If we extend the simulation to 500 cycles, the pattern becomes obvious:  
+<img src="/Pictures/spiral500.png" width="30%"> <img src="/Pictures/divergence500.png" width="30%"> <img src="/Pictures/hist500.png" width="30%">  
+
+
+
 
 
 
