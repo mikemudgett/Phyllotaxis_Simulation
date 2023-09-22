@@ -21,4 +21,30 @@
 Let's see it in action:
 One flower is pre-loaded at position "0". The black circle is a reference and the red represents the inhibitory potential of each point along the perimeter. There is a spike where the new flower formed.  
 t=0:  
-<img src="/Pictures/t0.png" width=50% height=50%>
+<img src="/Pictures/t0.png" width="30%">  
+The next flower pops up on the exact opposite side of the circle because that is where the inhibition potential is the lowest.  
+t=1:  
+<img src="/Pictures/t1.png" width="30%">  
+At the next time step, the new flower will not be directly up or down, but shifted a little since the first flower's impact is a little weaker. This continues for as many cycles as is set.
+t=2: &emsp; &emsp; &emsp; &emsp; &emsp;&emsp; &emsp; &emsp; &emsp; &emsp;&emsp; &emsp; &emsp; &emsp; &emsp; t=3:  
+<img src="/Pictures/t2.png" width="30%">  <img src="/Pictures/t3.png" width="30%">  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
