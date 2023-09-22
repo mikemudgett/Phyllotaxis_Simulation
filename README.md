@@ -17,3 +17,6 @@
 2. New flowers immediately increase the value at their specific location by 1. They also increase the values of all other points on the circle by means of an exponentially decaying function based on distance and time.
 
 3. To simulate the older flowers being pushed away and contributing less auxin, the contribution from older flowers decays over time.
+
+Let's see it in action:
+One flower is pre-loaded at position "0". The black circle is a reference and the red represents the inhibitory potential of each point along the perimeter. There is a spike where the new flower formed.
