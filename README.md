@@ -19,4 +19,6 @@
 3. To simulate the older flowers being pushed away and contributing less auxin, the contribution from older flowers decays over time.
 
 Let's see it in action:
-One flower is pre-loaded at position "0". The black circle is a reference and the red represents the inhibitory potential of each point along the perimeter. There is a spike where the new flower formed.
+One flower is pre-loaded at position "0". The black circle is a reference and the red represents the inhibitory potential of each point along the perimeter. There is a spike where the new flower formed.  
+t=0:  
+<img src="/Pictures/t0.png" width=50% height=50%>
