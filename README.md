@@ -29,6 +29,9 @@ At the next time step, the new flower will not be directly up or down, but shift
 t=2: &emsp; &emsp; &emsp; &emsp; &emsp;&emsp; &emsp; &emsp; &emsp; &emsp;&emsp; &emsp; &emsp; &emsp; &emsp; t=3:  
 <img src="/Pictures/t2.png" width="30%">  <img src="/Pictures/t3.png" width="30%">  
 
+If we let the simulation go for 50 cycles and plot each new flower location, we see that it forms a sort of spiral:  
+
+
 
 
 
