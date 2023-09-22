@@ -30,7 +30,8 @@ t=2: &emsp; &emsp; &emsp; &emsp; &emsp;&emsp; &emsp; &emsp; &emsp; &emsp;&emsp; 
 <img src="/Pictures/t2.png" width="30%">  <img src="/Pictures/t3.png" width="30%">  
 
 If we let the simulation go for 50 cycles and plot each new flower location, we see that it forms a sort of spiral:  
-
+<img src="/Pictures/spiral50.png" width="30%">  
+If we graph the divergence angles over time (angle between a given flower and the flower directly before it), we see that the angles hover around the golden angle or the conjugate of the golden angle (~2.4 and ~3.88 radians, respectively). 
 
 
 
